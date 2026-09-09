@@ -3,15 +3,21 @@ version : '3'
 services:
   api01:
     build: ./adminapi
+    environment:
+      MESSAGE: "Nicolas Romero Castillo 1"
     ports:
-      - "3000:3000"
+      - 8000:3000
 
   api02:
     build: ./adminapi
+    environment:
+      MESSAGE: "Nicolas Romero Castillo 2"
     ports:
-      - "3001:3000"
+      - 8001:3000
 
   api03:
     build: ./adminapi
+    environment:
+      MESSAGE: "Nicolas Romero Castillo 3"
     ports:
-      - "3002:3000"
+      - 8002:3000
