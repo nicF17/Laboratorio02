@@ -21,3 +21,10 @@ services:
       MESSAGE: ${MESSAGE3}
     ports:
       - 8002:3000
+
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: mydatabase
