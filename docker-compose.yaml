@@ -4,20 +4,20 @@ services:
   api01:
     build: ./adminapi
     environment:
-      MESSAGE: "Nicolas Romero Castillo 1"
+      MESSAGE: ${MESSAGE1}
     ports:
       - 8000:3000
 
   api02:
     build: ./adminapi
     environment:
-      MESSAGE: "Nicolas Romero Castillo 2"
+      MESSAGE: ${MESSAGE2}
     ports:
       - 8001:3000
 
   api03:
     build: ./adminapi
     environment:
-      MESSAGE: "Nicolas Romero Castillo 3"
+      MESSAGE: ${MESSAGE3}
     ports:
       - 8002:3000
