@@ -1,0 +1,17 @@
+version : '3'
+
+services:
+  api01:
+    build: ./adminapi
+    ports:
+      - "3000:3000"
+
+  api02:
+    build: ./adminapi
+    ports:
+      - "3001:3000"
+
+  api03:
+    build: ./adminapi
+    ports:
+      - "3002:3000"

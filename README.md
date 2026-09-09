@@ -50,3 +50,15 @@ docker ps
 nombre: crazy_jackson
 
 ID: d648658ce40c
+
+## Configuración de BD
+1. Bajar BD
+```bash
+docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+```
+
+2. Verificar el estatus de la BD
+```bash
+docker ps
+```
+
