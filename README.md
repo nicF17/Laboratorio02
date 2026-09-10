@@ -1,6 +1,6 @@
 # Laboratorio 02 - Solución
 
-## Comandos a ejecutar
+## Comandos a ejecutar para despliegue
 
 1. Bajar la imagen
 ```bash
@@ -62,3 +62,10 @@ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgre
 docker ps
 ```
 
+# Responder los tipos de redes y los tipos de volumen que existen en Docker
+
+## Tipos de redes en Docker
+Existen 6 tipos de redes en Docker: bridge, que es una red privada del host y es la que viene predeterminadamente; host, en donde el host y contenedor comparten la misma red; none, donde ningún contenedor comparte red; overlay, redes Swarm Overlay que permiten que los contenedores se conecten entre sí; upvlan, en donde se conectan contenedores a VLAN externas y macvlan en donde los contenedores se conectan como dispositivos de la red del host.
+
+## Tipos de volúmenes en Docker
+Existen tres tipos de volúmenes de datos en Docker: montaje de enlace, se le asigna del host a un archivo dentro del contenedor; volúmenes con nombre, que conserva datos después de eliminar o reiniciar un contenedor y volúmenes anónimos, se crea automáticamente si no colocas un nombre de volumen o enlace de montaje.
