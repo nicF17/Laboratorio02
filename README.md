@@ -88,3 +88,10 @@ Existen tres tipos de volúmenes de datos en Docker: montaje de enlace, se le as
 
 ## Comentario
 Profesor, me di cuenta que me di cuenta que en dos commits no usé Conventional Commits (olvidé "feat"), las disculpas del caso.
+
+## Capturas de despliegue
+![image alt](https://github.com/nicF17/Laboratorio02/blob/a87114a5315dff65941cc22bdf005f4411b6736c/IaC1.png)
+![image alt](https://github.com/nicF17/Laboratorio02/blob/a87114a5315dff65941cc22bdf005f4411b6736c/Iac2.png)
+![image alt](https://github.com/nicF17/Laboratorio02/blob/a87114a5315dff65941cc22bdf005f4411b6736c/IaC3.png)
+![image alt](https://github.com/nicF17/Laboratorio02/blob/a87114a5315dff65941cc22bdf005f4411b6736c/IaC4.png)
+![image alt](https://github.com/nicF17/Laboratorio02/blob/a87114a5315dff65941cc22bdf005f4411b6736c/IaC5.png)
