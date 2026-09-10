@@ -85,3 +85,6 @@ Existen 6 tipos de redes en Docker: bridge, que es una red privada del host y es
 
 ### Tipos de volúmenes en Docker
 Existen tres tipos de volúmenes de datos en Docker: montaje de enlace, se le asigna del host a un archivo dentro del contenedor; volúmenes con nombre, que conserva datos después de eliminar o reiniciar un contenedor y volúmenes anónimos, se crea automáticamente si no colocas un nombre de volumen o enlace de montaje.
+
+## Comentario
+Profesor, me di cuenta que me di cuenta que en dos commits no usé Conventional Commits (olvidé "feat"), las disculpas del caso.
