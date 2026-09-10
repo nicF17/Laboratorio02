@@ -43,7 +43,7 @@ ID: fbd65561c77c
 ```bash
 docker run -d --rm -p 3002:3000 nmatsui/hello-world-api
 ```
-8. Verificar que el estatus sea de la segunda instancia
+8. Verificar que el estatus sea de la tercera instancia
 ```bash
 docker ps
 ```
